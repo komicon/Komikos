@@ -1,0 +1,48 @@
+<!DOCTYPE html><html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#F2F2F7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+<title>Baca · KomikOS</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="ios-nav ios-material">
+  <div class="container" style="display:flex;align-items:center;gap:12px">
+    <a class="ios-btn" href="index.html">←</a>
+    <div><h1 style="font-size:18px;margin:0" id="jdl">Memuat…</h1><p class="sub" id="inf">-</p></div>
+  </div>
+</header>
+<section class="container">
+  <div class="ios-card ios-material" style="padding:14px">
+    <img id="cover" style="width:110px;border-radius:14px;float:left;margin:0 14px 8px 0">
+    <h2 id="judul" style="font-size:18px"></h2>
+    <p class="sub" id="tipe"></p>
+    <p id="sinopsis" style="margin-top:8px;font-size:14px;line-height:1.55;clear:none"></p>
+    <div style="clear:both"></div>
+  </div>
+  <h3 class="section-title">📖 Daftar Chapter</h3>
+  <div id="chapters" class="ios-card ios-material" style="padding:6px"></div>
+</section>
+<nav class="tabbar ios-material">
+  <a class="item" href="index.html"><span>🏠</span><b>Beranda</b></a>
+  <a class="item active"><span>📖</span><b>Baca</b></a>
+  <a class="item" href="admin.html"><span>⚙️</span><b>Admin</b></a>
+</nav>
+<script>
+const p=new URLSearchParams(location.search).get("id");
+fetch("data/komik.json").then(r=>r.json()).then(d=>{
+  const k=d.daftar_komik.find(x=>x.id==p);
+  if(!k) return location.href="index.html";
+  document.title=k.judul+" · KomikOS";
+  jdl.innerText=k.judul; judul.innerText=k.judul;
+  inf.innerText=k.tipe+" · "+k.status+" · "+k.jumlah_chapter+" bab";
+  tipe.innerText=k.genre.join(" · ");
+  sinopsis.innerText=k.sinopsis; cover.src=k.cover_gambar;
+  chapters.innerHTML=k.daftar_chapter.map(c=>`
+    <a class="row" href="#ch${c.nomor}">
+      <b>Chapter ${c.nomor}</b><small>${c.tanggal||""}</small>
+    </a>`).join("");
+});
+</script></body></html>

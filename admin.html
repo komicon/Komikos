@@ -1,0 +1,64 @@
+<!DOCTYPE html><html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#F2F2F7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+<title>Admin · KomikOS</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="ios-nav ios-material">
+  <div class="container" style="display:flex;justify-content:space-between;align-items:center">
+    <div><h1 style="font-size:20px;margin:0">⚙️ Panel Admin</h1><p class="sub">Kelola data & sinkron GitHub</p></div>
+    <a class="ios-btn" href="index.html">← Situs</a>
+  </div>
+</header>
+<section class="container" id="loginBox">
+  <div class="ios-card ios-material" style="padding:18px">
+    <h3>🔐 Masuk Admin</h3>
+    <input class="ios-input" id="u" placeholder="Username">
+    <input class="ios-input" id="pw" type="password" placeholder="Password">
+    <button class="ios-btn blue" id="btnMasuk">Masuk</button>
+    <p class="sub" style="margin-top:8px">Bawaan: <code>admin</code> / <code>admin123</code></p>
+  </div>
+</section>
+<section class="container" id="adminArea" style="display:none">
+  <div class="ios-card ios-material" style="padding:12px;display:flex;flex-wrap:wrap;gap:8px">
+    <button class="ios-btn blue" id="tambah">➕ Tambah</button>
+    <button class="ios-btn" id="ekspor">💾 Ekspor</button>
+    <label class="ios-btn"><input type="file" accept=".json" id="impor" hidden>📥 Impor</label>
+    <button class="ios-btn green" id="ghPush">☁️ Push GitHub</button>
+    <button class="ios-btn red" id="keluar">🚪 Keluar</button>
+  </div>
+  <input class="ios-input ios-material" id="cariAdm" placeholder="Cari komik…" style="margin-top:12px">
+  <div id="listAdm"></div>
+</section>
+<div id="modal" class="modal" hidden>
+  <div class="ios-card ios-material modal-box">
+    <h3 id="mTitle">Tambah / Edit</h3>
+    <input class="ios-input" id="f_judul" placeholder="Judul">
+    <select class="ios-input" id="f_tipe"><option>MANGA</option><option>MANHWA</option><option>MANHUA</option></select>
+    <input class="ios-input" id="f_cover" placeholder="URL Gambar Cover">
+    <input class="ios-input" id="f_genre" placeholder="Genre, pisah koma">
+    <select class="ios-input" id="f_status"><option>Berlangsung</option><option>Tamat</option></select>
+    <input class="ios-input" type="number" id="f_ch" placeholder="Jumlah chapter">
+    <textarea class="ios-input" id="f_sin" rows="4" placeholder="Sinopsis"></textarea>
+    <label style="display:block;padding:6px 2px"><input type="checkbox" id="f_pop"> Tandai Populer</label>
+    <div style="display:flex;gap:8px;margin-top:10px">
+      <button class="ios-btn" id="batal">Batal</button>
+      <button class="ios-btn blue" id="simpan">Simpan</button>
+    </div>
+  </div>
+</div>
+<script src="assets/app.js"></script>
+<script>
+const U="admin",P="admin123";
+btnMasuk.onclick=()=>{if(u.value==U&&pw.value==P){localStorage.adm=1;cek()}else alert("Username / password salah")}
+keluar.onclick=()=>{delete localStorage.adm;cek()}
+function cek(){
+  if(localStorage.adm==1){loginBox.style.display="none";adminArea.style.display="block";muatAdmin()}
+  else{loginBox.style.display="block";adminArea.style.display="none"}
+}
+cek();
+</script></body></html>
