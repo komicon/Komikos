@@ -1,0 +1,576 @@
+{
+  "metadata": {
+    "versi": "1.0",
+    "bahasa": "Indonesia",
+    "total": 28,
+    "update_otomatis": "aktif"
+  },
+  "daftar_komik": [
+    {
+      "id": 1,
+      "judul": "One Piece",
+      "tipe": "MANGA",
+      "populer": true,
+      "cover_gambar": "https://cdn.myanimelist.net/images/manga/1/253146l.jpg",
+      "genre": [
+        "Aksi",
+        "Petualangan",
+        "Komedi"
+      ],
+      "status": "Berlangsung",
+      "jumlah_chapter": 1130,
+      "sinopsis": "Petualangan Monkey D. Luffy mencari harta legendaris One Piece untuk menjadi Raja Bajak Laut.",
+      "daftar_chapter": [
+        {
+          "nomor": 1130,
+          "tanggal": "2026-06-18"
+        },
+        {
+          "nomor": 1129,
+          "tanggal": "2026-06-11"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "judul": "Solo Leveling",
+      "tipe": "MANHWA",
+      "populer": true,
+      "cover_gambar": "https://cdn.myanimelist.net/images/manga/3/213207l.jpg",
+      "genre": [
+        "Aksi",
+        "Fantasi"
+      ],
+      "status": "Tamat",
+      "jumlah_chapter": 179,
+      "sinopsis": "Sung Jin‑woo pemburu terlemah, berubah menjadi yang terkuat lewat sistem misterius.",
+      "daftar_chapter": [
+        {
+          "nomor": 179,
+          "tanggal": "2023-12-29"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "judul": "Jujutsu Kaisen",
+      "tipe": "MANGA",
+      "populer": true,
+      "cover_gambar": "https://cdn.myanimelist.net/images/manga/4/221977l.jpg",
+      "genre": [
+        "Aksi",
+        "Supranatural"
+      ],
+      "status": "Berlangsung",
+      "jumlah_chapter": 270,
+      "sinopsis": "Yuji Itadori masuk dunia sihir kutukan demi melindungi orang terdekat.",
+      "daftar_chapter": [
+        {
+          "nomor": 270,
+          "tanggal": "2026-05-20"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "judul": "Omniscient Reader",
+      "tipe": "MANHWA",
+      "populer": true,
+      "cover_gambar": "https://cdn.myanimelist.net/images/manga/2/259025l.jpg",
+      "genre": [
+        "Aksi",
+        "Fantasi",
+        "Dimensi"
+      ],
+      "status": "Berlangsung",
+      "jumlah_chapter": 230,
+      "sinopsis": "Kim Dokja satu‑satunya orang yang tahu akhir cerita dunia yang berubah jadi novel.",
+      "daftar_chapter": [
+        {
+          "nomor": 230,
+          "tanggal": "2026-06-15"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "judul": "Battle Through the Heavens",
+      "tipe": "MANHUA",
+      "populer": true,
+      "cover_gambar": "https://cdn.myanimelist.net/images/manga/1/191093l.jpg",
+      "genre": [
+        "Aksi",
+        "Xianxia"
+      ],
+      "status": "Berlangsung",
+      "jumlah_chapter": 480,
+      "sinopsis": "Xiao Yan jenius yang jatuh, bangkit kembali menuju puncak kekuatan.",
+      "daftar_chapter": [
+        {
+          "nomor": 480,
+          "tanggal": "2026-06-10"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "judul": "Naruto",
+      "tipe": "MANGA",
+      "populer": true,
+      "cover_gambar": "https://cdn.myanimelist.net/images/manga/3/174052l.jpg",
+      "genre": [
+        "Aksi",
+        "Ninja"
+      ],
+      "status": "Tamat",
+      "jumlah_chapter": 700,
+      "sinopsis": "Perjuangan Naruto Uzumaki diakui desa dan menjadi Hokage.",
+      "daftar_chapter": [
+        {
+          "nomor": 700,
+          "tanggal": "2014-11-10"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "judul": "Demon Slayer",
+      "tipe": "MANGA",
+      "populer": true,
+      "cover_gambar": "https://cdn.myanimelist.net/images/manga/1/207085l.jpg",
+      "genre": [
+        "Aksi",
+        "Iblis"
+      ],
+      "status": "Tamat",
+      "jumlah_chapter": 205,
+      "sinopsis": "Tanjiro Kamado melawan iblis demi mengembalikan adiknya jadi manusia.",
+      "daftar_chapter": [
+        {
+          "nomor": 205,
+          "tanggal": "2020-05-18"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "judul": "Attack on Titan",
+      "tipe": "MANGA",
+      "populer": true,
+      "cover_gambar": "https://cdn.myanimelist.net/images/manga/5/189963l.jpg",
+      "genre": [
+        "Aksi",
+        "Drama"
+      ],
+      "status": "Tamat",
+      "jumlah_chapter": 139,
+      "sinopsis": "Umat manusia terkurung tembok melawan raksasa pemakan manusia.",
+      "daftar_chapter": [
+        {
+          "nomor": 139,
+          "tanggal": "2021-04-09"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "judul": "Eleceed",
+      "tipe": "MANHWA",
+      "populer": true,
+      "cover_gambar": "https://cdn.myanimelist.net/images/manga/1/225074l.jpg",
+      "genre": [
+        "Aksi",
+        "Sekolah"
+      ],
+      "status": "Berlangsung",
+      "jumlah_chapter": 310,
+      "sinopsis": "Jiwoo pemuda cepat bertemu agen rahasia tersembunyi.",
+      "daftar_chapter": [
+        {
+          "nomor": 310,
+          "tanggal": "2026-06-12"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "judul": "Lookism",
+      "tipe": "MANHWA",
+      "populer": true,
+      "cover_gambar": "https://cdn.myanimelist.net/images/manga/8/199891l.jpg",
+      "genre": [
+        "Aksi",
+        "Sekolah"
+      ],
+      "status": "Berlangsung",
+      "jumlah_chapter": 520,
+      "sinopsis": "Siswa lemah punya tubuh kedua yang sempurna dan kuat.",
+      "daftar_chapter": [
+        {
+          "nomor": 520,
+          "tanggal": "2026-06-14"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "judul": "The Beginning After The End",
+      "tipe": "MANHWA",
+      "populer": true,
+      "cover_gambar": "https://cdn.myanimelist.net/images/manga/2/212669l.jpg",
+      "genre": [
+        "Fantasi",
+        "Reinkarnasi"
+      ],
+      "status": "Berlangsung",
+      "jumlah_chapter": 200,
+      "sinopsis": "Raja bereinkarnasi ke dunia sihir dengan pengetahuan masa lalu.",
+      "daftar_chapter": [
+        {
+          "nomor": 200,
+          "tanggal": "2026-06-01"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "judul": "Martial Peak",
+      "tipe": "MANHUA",
+      "populer": true,
+      "cover_gambar": "https://cdn.myanimelist.net/images/manga/12/188951l.jpg",
+      "genre": [
+        "Aksi",
+        "Wuxia"
+      ],
+      "status": "Berlangsung",
+      "jumlah_chapter": 3600,
+      "sinopsis": "Perjalanan panjang mencapai puncak tertinggi bela diri.",
+      "daftar_chapter": [
+        {
+          "nomor": 3600,
+          "tanggal": "2026-06-05"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "judul": "Soul Land",
+      "tipe": "MANHUA",
+      "populer": true,
+      "cover_gambar": "https://cdn.myanimelist.net/images/manga/4/189964l.jpg",
+      "genre": [
+        "Fantasi",
+        "Bela Diri"
+      ],
+      "status": "Berlangsung",
+      "jumlah_chapter": 650,
+      "sinopsis": "Tang San lahir ulang dengan ilmu bela diri terdahulu.",
+      "daftar_chapter": [
+        {
+          "nomor": 650,
+          "tanggal": "2026-05-28"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "judul": "Chainsaw Man",
+      "tipe": "MANGA",
+      "populer": true,
+      "cover_gambar": "https://cdn.myanimelist.net/images/manga/4/246063l.jpg",
+      "genre": [
+        "Aksi",
+        "Gelap"
+      ],
+      "status": "Berlangsung",
+      "jumlah_chapter": 180,
+      "sinopsis": "Denji menjadi manusia gergaji demi hidup tenang.",
+      "daftar_chapter": [
+        {
+          "nomor": 180,
+          "tanggal": "2026-06-03"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "judul": "My Hero Academia",
+      "tipe": "MANGA",
+      "populer": false,
+      "cover_gambar": "https://cdn.myanimelist.net/images/manga/5/206669l.jpg",
+      "genre": [
+        "Aksi",
+        "Pahlawan"
+      ],
+      "status": "Berlangsung",
+      "jumlah_chapter": 430,
+      "sinopsis": "Tanpa kekuatan lahir, Izuku bertekad jadi pahlawan nomor satu.",
+      "daftar_chapter": [
+        {
+          "nomor": 430,
+          "tanggal": "2026-05-20"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "judul": "Black Clover",
+      "tipe": "MANGA",
+      "populer": false,
+      "cover_gambar": "https://cdn.myanimelist.net/images/manga/2/195068l.jpg",
+      "genre": [
+        "Aksi",
+        "Sihir"
+      ],
+      "status": "Berlangsung",
+      "jumlah_chapter": 370,
+      "sinopsis": "Asta tanpa sihir berusaha jadi Kaisar Sihir.",
+      "daftar_chapter": [
+        {
+          "nomor": 370,
+          "tanggal": "2026-04-20"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "judul": "Tower of God",
+      "tipe": "MANHWA",
+      "populer": true,
+      "cover_gambar": "https://cdn.myanimelist.net/images/manga/5/189965l.jpg",
+      "genre": [
+        "Fantasi",
+        "Petualangan"
+      ],
+      "status": "Berlangsung",
+      "jumlah_chapter": 600,
+      "sinopsis": "Bam naik menara misterius demi bertemu kembali Rachel.",
+      "daftar_chapter": [
+        {
+          "nomor": 600,
+          "tanggal": "2026-06-08"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "judul": "Noblesse",
+      "tipe": "MANHWA",
+      "populer": false,
+      "cover_gambar": "https://cdn.myanimelist.net/images/manga/10/189966l.jpg",
+      "genre": [
+        "Aksi",
+        "Vampir"
+      ],
+      "status": "Tamat",
+      "jumlah_chapter": 544,
+      "sinopsis": "Rasul bangkit kembali di zaman modern.",
+      "daftar_chapter": [
+        {
+          "nomor": 544,
+          "tanggal": "2019-01-08"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "judul": "The Gamer",
+      "tipe": "MANHWA",
+      "populer": false,
+      "cover_gambar": "https://cdn.myanimelist.net/images/manga/1/189967l.jpg",
+      "genre": [
+        "Fantasi",
+        "Sistem"
+      ],
+      "status": "Berlangsung",
+      "jumlah_chapter": 450,
+      "sinopsis": "Hidupnya tiba‑tiba berubah seperti dalam video game.",
+      "daftar_chapter": [
+        {
+          "nomor": 450,
+          "tanggal": "2026-03-10"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "judul": "Perfect Half",
+      "tipe": "MANHWA",
+      "populer": false,
+      "cover_gambar": "https://cdn.myanimelist.net/images/manga/1/220000l.jpg",
+      "genre": [
+        "Aksi",
+        "Dewasa"
+      ],
+      "status": "Berlangsung",
+      "jumlah_chapter": 160,
+      "sinopsis": "Dua kerajaan berperang, takdir di ujung pedang.",
+      "daftar_chapter": [
+        {
+          "nomor": 160,
+          "tanggal": "2026-02-18"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "judul": "I Am The Sorcerer King",
+      "tipe": "MANHWA",
+      "populer": false,
+      "cover_gambar": "https://cdn.myanimelist.net/images/manga/1/215000l.jpg",
+      "genre": [
+        "Aksi",
+        "Sihir"
+      ],
+      "status": "Tamat",
+      "jumlah_chapter": 143,
+      "sinopsis": "Dibangkitkan kembali dengan kekuatan penyihir terkuat.",
+      "daftar_chapter": [
+        {
+          "nomor": 143,
+          "tanggal": "2021-06-24"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "judul": "Apotheosis",
+      "tipe": "MANHUA",
+      "populer": false,
+      "cover_gambar": "https://cdn.myanimelist.net/images/manga/1/191094l.jpg",
+      "genre": [
+        "Xianxia",
+        "Aksi"
+      ],
+      "status": "Berlangsung",
+      "jumlah_chapter": 1100,
+      "sinopsis": "Dari budak menjadi dewa tertinggi.",
+      "daftar_chapter": [
+        {
+          "nomor": 1100,
+          "tanggal": "2026-05-30"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "judul": "Star Martial God Technique",
+      "tipe": "MANHUA",
+      "populer": false,
+      "cover_gambar": "https://cdn.myanimelist.net/images/manga/1/191095l.jpg",
+      "genre": [
+        "Bela Diri",
+        "Fantasi"
+      ],
+      "status": "Berlangsung",
+      "jumlah_chapter": 720,
+      "sinopsis": "Teknik bela diri bintang terkuat sepanjang masa.",
+      "daftar_chapter": [
+        {
+          "nomor": 720,
+          "tanggal": "2026-05-25"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "judul": "Dragon Ball Super",
+      "tipe": "MANGA",
+      "populer": false,
+      "cover_gambar": "https://cdn.myanimelist.net/images/manga/1/191096l.jpg",
+      "genre": [
+        "Aksi",
+        "Petualangan"
+      ],
+      "status": "Berlangsung",
+      "jumlah_chapter": 105,
+      "sinopsis": "Kelanjutan petualangan Goku melawan dewa penghancur.",
+      "daftar_chapter": [
+        {
+          "nomor": 105,
+          "tanggal": "2026-05-20"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "judul": "Bleach",
+      "tipe": "MANGA",
+      "populer": false,
+      "cover_gambar": "https://cdn.myanimelist.net/images/manga/6/174053l.jpg",
+      "genre": [
+        "Aksi",
+        "Shinigami"
+      ],
+      "status": "Tamat",
+      "jumlah_chapter": 686,
+      "sinopsis": "Ichigo menjadi Shinigami pengganti.",
+      "daftar_chapter": [
+        {
+          "nomor": 686,
+          "tanggal": "2016-08-22"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "judul": "Hunter x Hunter",
+      "tipe": "MANGA",
+      "populer": true,
+      "cover_gambar": "https://cdn.myanimelist.net/images/manga/4/174054l.jpg",
+      "genre": [
+        "Petualangan",
+        "Aksi"
+      ],
+      "status": "Berlangsung",
+      "jumlah_chapter": 400,
+      "sinopsis": "Gon mencari ayah pemburu legendaris.",
+      "daftar_chapter": [
+        {
+          "nomor": 400,
+          "tanggal": "2024-11-04"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "judul": "Second Life Ranker",
+      "tipe": "MANHWA",
+      "populer": true,
+      "cover_gambar": "https://cdn.myanimelist.net/images/manga/3/230000l.jpg",
+      "genre": [
+        "Fantasi",
+        "Balas Dendam"
+      ],
+      "status": "Berlangsung",
+      "jumlah_chapter": 180,
+      "sinopsis": "Balas dendam menggunakan pengetahuan almarhum kakak.",
+      "daftar_chapter": [
+        {
+          "nomor": 180,
+          "tanggal": "2026-06-16"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "judul": "Return of the Mount Hua Sect",
+      "tipe": "MANHWA",
+      "populer": true,
+      "cover_gambar": "https://cdn.myanimelist.net/images/manga/1/240000l.jpg",
+      "genre": [
+        "Wuxia",
+        "Reinkarnasi"
+      ],
+      "status": "Berlangsung",
+      "jumlah_chapter": 150,
+      "sinopsis": "Jenius pedang bangkit kembali 100 tahun kemudian.",
+      "daftar_chapter": [
+        {
+          "nomor": 150,
+          "tanggal": "2026-06-17"
+        }
+      ]
+    }
+  ]
+}
