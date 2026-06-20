@@ -1,0 +1,62 @@
+:root{
+  --bg:#F2F2F7;--card:#FFFFFFE6;--text:#1D1D1F;--text2:rgba(60,60,67,.6);
+  --blue:#007AFF;--green:#30D158;--red:#FF3B30;
+  --r:22px / 18px;--pill:9999px;
+  --shadow:0 12px 34px rgba(0,0,0,.10),0 4px 12px rgba(0,0,0,.05);
+  --ease:cubic-bezier(.22,1,.36,1);
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#000;--card:#1C1C1EB8;--text:#F5F5F7;--text2:rgba(235,235,245,.6);
+  --blue:#0A84FF;
+}}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{
+  font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text",Arial,sans-serif;
+  background:var(--bg);color:var(--text);-webkit-font-smoothing:antialiased;
+  padding-bottom:96px;line-height:1.45
+}
+.ios-material{
+  background:rgba(255,255,255,.18);
+  -webkit-backdrop-filter:blur(24px) saturate(180%);
+  backdrop-filter:blur(24px) saturate(180%);
+  border:1px solid rgba(255,255,255,.22);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.28),var(--shadow)
+}
+@media(prefers-color-scheme:dark){.ios-material{background:rgba(28,28,30,.45);border-color:rgba(255,255,255,.08)}}
+.container{max-width:780px;margin:0 auto;padding:16px;padding-top:calc(16px + env(safe-area-inset-top))}
+.ios-nav{position:sticky;top:0;z-index:50;border-radius:0 0 26px 26px}
+.ios-nav h1{font-size:32px;font-weight:800;letter-spacing:-.02em}
+.sub{color:var(--text2);font-size:13px}
+.section-title{font-size:20px;font-weight:700;margin:22px 0 10px}
+.ios-carousel{position:relative;aspect-ratio:16/9;border-radius:var(--r);overflow:hidden;box-shadow:var(--shadow)}
+.track{display:flex;height:100%;transform:translateX(0);transition:transform .55s var(--ease)}
+.slide{flex:0 0 100%;position:relative}
+.slide img{width:100%;height:100%;object-fit:cover;display:block}
+.slide .cap{position:absolute;inset:auto 0 0 0;padding:56px 16px 18px;background:linear-gradient(transparent,rgba(0,0,0,.7));color:#fff;font-weight:700}
+.nav{position:absolute;top:50%;transform:translateY(-50%);width:40px;height:40px;border-radius:50%;border:none;background:rgba(255,255,255,.3);backdrop-filter:blur(10px);color:#fff;font-size:22px}
+.nav.prev{left:10px}.nav.next{right:10px}
+.dots{position:absolute;bottom:10px;left:50%;transform:translateX(-50%);display:flex;gap:7px}
+.dot{width:7px;height:7px;border-radius:999px;background:rgba(255,255,255,.45);border:none}
+.dot.active{width:20px;background:#fff}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(136px,1fr));gap:12px}
+.card,.ios-card{background:var(--card);border-radius:var(--r);box-shadow:var(--shadow);color:inherit;text-decoration:none;display:block}
+.card:active{transform:scale(.96);transition:transform .1s}
+.card img{width:100%;aspect-ratio:2/3;object-fit:cover;display:block}
+.card .meta{padding:9px 10px 12px}
+.card h4{font-size:13.5px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.card small{color:var(--text2);font-size:11px}
+.filter{padding:8px;display:flex;gap:6px;flex-wrap:wrap}
+.chip{border:none;padding:8px 14px;border-radius:var(--pill);background:transparent;color:var(--text);font-size:14px}
+.chip.active{background:var(--blue);color:#fff}
+.ios-input{width:100%;min-height:46px;padding:10px 14px;border-radius:var(--pill);border:none;background:var(--card);color:var(--text);font-size:15px;outline:none;margin-top:10px}
+.ios-btn{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:0 16px;border-radius:var(--pill);border:none;background:var(--card);color:var(--text);font-size:15px;cursor:pointer}
+.ios-btn.blue{background:var(--blue);color:#fff}
+.ios-btn.green{background:var(--green);color:#fff}
+.ios-btn.red{background:var(--red);color:#fff}
+.row{display:flex;justify-content:space-between;align-items:center;padding:12px 14px;border-bottom:1px solid rgba(120,120,128,.15);text-decoration:none;color:inherit}
+.row:last-child{border:none}
+.tabbar{position:fixed;left:12px;right:12px;bottom:10px;z-index:99;border-radius:var(--pill);padding:6px;display:flex;justify-content:space-around;padding-bottom:calc(6px + env(safe-area-inset-bottom))}
+.tabbar .item{flex:1;display:flex;flex-direction:column;align-items:center;gap:2px;font-size:11px;color:var(--text2);text-decoration:none;min-height:48px}
+.tabbar .item.active{color:var(--blue)}
+.modal{position:fixed;inset:0;background:rgba(0,0,0,.4);backdrop-filter:blur(6px);z-index:100;display:flex;align-items:center;padding:20px}
+.modal-box{width:100%;max-width:520px;margin:auto;padding:18px}
